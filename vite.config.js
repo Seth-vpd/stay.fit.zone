@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // GitHub Pages project site: https://<user>.github.io/<repo>/
-  base: '/stay.fit.zone/',
+  // Use relative asset paths so deployment works on project pages and custom domains.
+  base: './',
   plugins: [react()],
 })
